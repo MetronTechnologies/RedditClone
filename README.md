@@ -1,5 +1,5 @@
-Programming Language --> JavaScript
-Runtime environment ---> NodeJs
+- Programming Language --> JavaScript
+- Runtime environment ---> NodeJs
 Framework ---> ExpressJs
 Database (development) ---> MongoDB
 Database (production) ---> Mongo Atlas
