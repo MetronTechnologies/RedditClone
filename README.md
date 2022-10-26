@@ -1,10 +1,10 @@
 - Programming Language --> JavaScript
 - Runtime environment ---> NodeJs
-Framework ---> ExpressJs
-Database (development) ---> MongoDB
-Database (production) ---> Mongo Atlas
+- Framework ---> ExpressJs
+- Database (development) ---> MongoDB
+- Database (production) ---> Mongo Atlas
 
-To Register a user or sign up ---> http://localhost:5000/reddit/createuser
+- To Register a user or sign up ---> http://localhost:5000/reddit/createuser
 	{
 		"firstname": "Clark",
 		"lastname": "Kent",
@@ -16,7 +16,7 @@ To Register a user or sign up ---> http://localhost:5000/reddit/createuser
 copy and keep the jwt token and the _id as this action will log the user in immediately
 
 
-To Login if a user is registered ---> http://localhost:5000/reddit/login
+- To Login if a user is registered ---> http://localhost:5000/reddit/login
 {
 	"email": "clark@gmail.com",
 	"password": "clark"
@@ -25,7 +25,7 @@ copy and keep the jwt token and the _id as this action will log the user in imme
 
 
 
-To create a subreddit (A subreddit can only be created when a user is logged in) ---> http://localhost:5000/reddit/createsubreddit
+- To create a subreddit (A subreddit can only be created when a user is logged in) ---> http://localhost:5000/reddit/createsubreddit
 Add the jwt token in the authorization tab
 {
 	"name": "Justice And Truth",  //This is the name of the subreddit
@@ -36,7 +36,7 @@ copy and keep the _id for the subreddit
 
 
 
-To edit a subreddit (A subreddit can only be edited if a it has already been created, and by the user who created it)
+- To edit a subreddit (A subreddit can only be edited if a it has already been created, and by the user who created it)
 Add the jwt token in the authorization tab
 {
 	"id": "6358560d3cc9424448562c83", //This is the _id of the subreddit to be edited
@@ -47,7 +47,7 @@ Add the jwt token in the authorization tab
 
 
 
-To create a post (A post can only be created under a subreddit) ---> http://localhost:5000/reddit/createpost
+- To create a post (A post can only be created under a subreddit) ---> http://localhost:5000/reddit/createpost
 Add the jwt token in the authorization tab
 {
 	"postname": "Lana Luthor",  //The name of the post
@@ -59,7 +59,7 @@ copy and keep the _id for the post
 
 
 
-To write a comment (A comment can only be made under a post) ---> http://localhost:5000/reddit/createcomment
+- To write a comment (A comment can only be made under a post) ---> http://localhost:5000/reddit/createcomment
 Add the jwt token in the authorization tab
 {
 	"text": "Finally, Justice will be served",  //This is the comment
