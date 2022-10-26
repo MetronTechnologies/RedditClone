@@ -1,14 +1,14 @@
 This is a reddit clone rest api using javascript
 
 To Register a user or sign up ---> http://localhost:5000/reddit/createuser
-{
-	"firstname": "Clark",
-	"lastname": "Kent",
-	"username": "superman",
-	"email": "clark@gmail.com",
-	"password": "clark",
-	"confirmPassword": "clark"
-}
+	{
+		"firstname": "Clark",
+		"lastname": "Kent",
+		"username": "superman",
+		"email": "clark@gmail.com",
+		"password": "clark",
+		"confirmPassword": "clark"
+	}
 copy and keep the jwt token and the _id as this action will log the user in immediately
 
 
