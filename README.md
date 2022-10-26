@@ -1,4 +1,8 @@
-This is a reddit clone rest api using javascript
+Programming Language --> JavaScript
+Runtime environment ---> NodeJs
+Framework ---> ExpressJs
+Database (development) ---> MongoDB
+Database (production) ---> Mongo Atlas
 
 To Register a user or sign up ---> http://localhost:5000/reddit/createuser
 	{
